@@ -1,0 +1,467 @@
+{"tests":[{"id": 1,
+"topic": "DSA",
+"duration": 60,
+"questions": [
+    {
+        "text": "How is an array initialized in C language?",
+        "options": [
+            {
+                "info": "int a[3] = {1,2,3};",
+                "id": 1
+            },
+            {
+                "info": "int a = {1,2,3};",
+                "id": 2
+            },
+            {
+                "info": "int a[] = new int[3];",
+                "id": 3
+            },
+            {
+                "info": "int a(3) = [1,2,3];",
+                "id": 4
+            }
+        ],
+        "correctid": 1,
+        "selectedid": 0
+    },
+    {
+        "text": "Which of the following is a linear DS?",
+        "options": [
+            {
+                "info": "AVL Trees",
+                "id": 1
+            },
+            {
+                "info": "BST",
+                "id": 2
+            },
+            {
+                "info": "Array",
+                "id": 3
+            },
+            {
+                "info": "Graphs",
+                "id": 4
+            }
+        ],
+        "correctid": 3,
+        "selectedid": 0
+    },
+    {
+        "text": "Which of the following is not the type of queue?",
+        "options": [
+            {
+                "info": "Priority Queue",
+                "id": 1
+            },
+            {
+                "info": "Single-ended Queue",
+                "id": 2
+            },
+            {
+                "info": "Cirular Queue",
+                "id": 3
+            },
+            {
+                "info": "Ordinary Queue",
+                "id": 4
+            }
+        ],
+        "correctid": 2,
+        "selectedid": 0
+    },
+    {
+        "text": "What function is used to append a character at the back of a string in C++?",
+        "options": [
+            {
+                "info": "push_back()",
+                "id": 1
+            },
+            {
+                "info": "append()",
+                "id": 2
+            },
+            {
+                "info": "push()",
+                "id": 3
+            },
+            {
+                "info": "insert()",
+                "id": 4
+            }
+        ],
+        "correctid": 1,
+        "selectedid": 0
+    },
+    {
+        "text": "When a pop() operation is called on an empty queue, what is the condition called?",
+        "options": [
+            {
+                "info": "Overflow",
+                "id": 1
+            },
+            {
+                "info": "Underflow",
+                "id": 2
+            },
+            {
+                "info": "Syntax Error",
+                "id": 3
+            },
+            {
+                "info": "Garbage Value",
+                "id": 4
+            }
+        ],
+        "correctid": 2,
+        "selectedid": 0
+    },
+    {
+        "text": "Which of the following DS can be used to implement queues?",
+        "options": [
+            {
+                "info": "Stacks",
+                "id": 1
+            },
+            {
+                "info": "Arrays",
+                "id": 2
+            },
+            {
+                "info": "Linked List",
+                "id": 3
+            },
+            {
+                "info": "All of the Above",
+                "id": 4
+            }
+        ],
+        "correctid": 4,
+        "selectedid": 0
+    },
+    {
+        "text": "Which of the following data structures allow insertion and deletion from both ends?",
+        "options": [
+            {
+                "info": "Stacks",
+                "id": 1
+            },
+            {
+                "info": "Deque",
+                "id": 2
+            },
+            {
+                "info": "Queue",
+                "id": 3
+            },
+            {
+                "info": "Strings",
+                "id": 4
+            }
+        ],
+        "correctid": 2,
+        "selectedid": 0}]},{"id": 2,
+        "topic": "DDCO",
+        "duration": 60,
+        "questions": [
+            {
+                "text": "ALU stands for?",
+                "options": [
+                    {
+                        "info": "Arithmetic Logical Unit",
+                        "id": 1
+                    },
+                    {
+                        "info": "Application Logical Unit",
+                        "id": 2
+                    },
+                    {
+                        "info": "Array Logical Unit",
+                        "id": 3
+                    },
+                    {
+                        "info": "None",
+                        "id": 4
+                    }
+                ],
+                "correctid": 1,
+                "selectedid": 0
+            },
+            {
+                "text": "The Brain of any Computer System is?",
+                "options": [
+                    {
+                        "info": "ALU",
+                        "id": 1
+                    },
+                    {
+                        "info": "CPU",
+                        "id": 2
+                    },
+                    {
+                        "info": "Memory",
+                        "id": 3
+                    },
+                    {
+                        "info": "Control Unit",
+                        "id": 4
+                    }
+                ],
+                "correctid": 2,
+                "selectedid": 0
+            },
+            {
+                "text": "Fastest Memory Unit?",
+                "options": [
+                    {
+                        "info": "Registers",
+                        "id": 1
+                    },
+                    {
+                        "info": "RAM",
+                        "id": 2
+                    },
+                    {
+                        "info": "Disk",
+                        "id": 3
+                    },
+                    {
+                        "info": "Floppy",
+                        "id": 4
+                    }
+                ],
+                "correctid": 1,
+                "selectedid": 0
+            },
+            {
+                "text": "Which of the following is used to improve data acess speed?",
+                "options": [
+                    {
+                        "info": "Cache",
+                        "id": 1
+                    },
+                    {
+                        "info": "RAM",
+                        "id": 2
+                    },
+                    {
+                        "info": "ROM",
+                        "id": 3
+                    },
+                    {
+                        "info": "None",
+                        "id": 4
+                    }
+                ],
+                "correctid": 1,
+                "selectedid": 0
+            },
+            {
+                "text": "Computer Address Bus is?",
+                "options": [
+                    {
+                        "info": "Multidirectional",
+                        "id": 1
+                    },
+                    {
+                        "info": "Bidirectional",
+                        "id": 2
+                    },
+                    {
+                        "info": "Unidirectional",
+                        "id": 3
+                    },
+                    {
+                        "info": "None",
+                        "id": 4
+                    }
+                ],
+                "correctid": 3,
+                "selectedid": 0
+            },
+            {
+                "text": "Which of the following circuit is used to store one bit of data?",
+                "options": [
+                    {
+                        "info": "Flip Flop",
+                        "id": 1
+                    },
+                    {
+                        "info": "Decoder",
+                        "id": 2
+                    },
+                    {
+                        "info": "Encoder",
+                        "id": 3
+                    },
+                    {
+                        "info": "Register",
+                        "id": 4
+                    }
+                ],
+                "correctid": 1,
+                "selectedid": 0
+            },
+            {
+                "text": "Subtraction is carried out in computers by?",
+                "options": [
+                    {
+                        "info": "1s Complement",
+                        "id": 1
+                    },
+                    {
+                        "info": "2s Complement",
+                        "id": 2
+                    },
+                    {
+                        "info": "3s Complement",
+                        "id": 3
+                    },
+                    {
+                        "info": "9s Complement",
+                        "id": 4
+                    }
+                ],
+                "correctid": 2,
+                "selectedid": 0}]},{"id": 3,
+        "topic": "Web Tech",
+        "duration": 30,
+        "questions": [
+            {
+                "text": "The correct sequence of HTML tags for starting a webpage is",
+                "options": [
+                    {
+                        "info": "Head, Title, HTML, Body",
+                        "id": 1
+                    },
+                    {
+                        "info": "HTML, Head, Title, Body",
+                        "id": 2
+                    },
+                    {
+                        "info": "Title, Head, Body, HTML",
+                        "id": 3
+                    },
+                    {
+                        "info": "Body, Title, Head, HTML",
+                        "id": 4
+                    }
+                ],
+                "correctid": 2,
+                "selectedid": 0
+            },
+            {
+                "text": "Which of the following property is used as the shorthand property for the padding properties?",
+                "options": [
+                    {
+                        "info": "padding",
+                        "id": 1
+                    },
+                    {
+                        "info": "padding-left",
+                        "id": 2
+                    },
+                    {
+                        "info": "padding-right",
+                        "id": 3
+                    },
+                    {
+                        "info": "All",
+                        "id": 4
+                    }
+                ],
+                "correctid": 1,
+                "selectedid": 0
+            },
+            {
+                "text": "The CSS property used to specify the transparency of an element is",
+                "options": [
+                    {
+                        "info": "visibility",
+                        "id": 1
+                    },
+                    {
+                        "info": "transparency",
+                        "id": 2
+                    },
+                    {
+                        "info": "opacity",
+                        "id": 3
+                    },
+                    {
+                        "info": "filter",
+                        "id": 4
+                    }
+                ],
+                "correctid": 3,
+                "selectedid": 0
+            },
+            {
+                "text": "A collection of hyperlinked documents on the internet forms the ____",
+                "options": [
+                    {
+                        "info": "E Mail System",
+                        "id": 1
+                    },
+                    {
+                        "info": "RSS Network",
+                        "id": 2
+                    },
+                    {
+                        "info": "Newsroom",
+                        "id": 3
+                    },
+                    {
+                        "info": "WWW",
+                        "id": 4
+                    }
+                ],
+                "correctid": 4,
+                "selectedid": 0
+            },
+            {
+                "text": "The location of a resource on the internet is given by its?",
+                "options": [
+                    {
+                        "info": "Protocol",
+                        "id": 1
+                    },
+                    {
+                        "info": "Data Path",
+                        "id": 2
+                    },
+                    {
+                        "info": "Uniform Resource Locator",
+                        "id": 3
+                    },
+                    {
+                        "info": "ICQ",
+                        "id": 4
+                    }
+                ],
+                "correctid": 3,
+                "selectedid": 0
+            },
+            {
+                "text": "The term FTP stands for?",
+                "options": [
+                    {
+                        "info": "File Transfer Protocol",
+                        "id": 1
+                    },
+                    {
+                        "info": "File Tranform Program",
+                        "id": 2
+                    },
+                    {
+                        "info": "File Transfer Protection",
+                        "id": 3
+                    },
+                    {
+                        "info": "File Transmission Protocol",
+                        "id": 4
+                    }
+                ],
+                "correctid": 1,
+                "selectedid": 0}]},{"_id":"6375c3be83cdbb2abc80909a","id":4,"topic":"Topic4","questions":[{"text":"Who played the role of Elliot Alderson in the TV Series, Mr. Robot?","options":[{"info":"Rami Malek","id":1},{"info":"Robert Downey Jr.","id":2},{"info":"Jesse Eisenberg","id":3},{"info":"Andy Samberg","id":4}],"correctid":1,"selectedid":0},{"text":"Where was the programming language LISP created at?","options":[{"info":"Harvard","id":1},{"info":"UC Berkley","id":2},{"info":"MIT","id":3},{"info":"CMU","id":4}],"correctid":3,"selectedid":0},{"text":"Who is the developer of the game Death Stranding, released in 2019?","options":[{"info":"Guerilla Games","id":1},{"info":"Kojima Productions","id":2},{"info":"Nintendo","id":3},{"info":"Xbox Studios","id":4}],"correctid":2,"selectedid":0},{"text":"Name the director of the movie Parasite(2019)","options":[{"info":"Bong Joon-ho","id":1},{"info":"Martin Scorsese","id":2},{"info":"Park Chan-wook","id":3},{"info":"Sam Esmail","id":4}],"correctid":1,"selectedid":0}]}]}
