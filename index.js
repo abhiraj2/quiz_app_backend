@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const { group } = require("console");
 const mongoClient = require("mongodb").MongoClient
 const app = express()
-const port = process.env.port | 9000;
+const port = 3000;
 
 //const mongourl = "mongodb://localhost:27017"
 const mongourl = process.env.MONGOURI
