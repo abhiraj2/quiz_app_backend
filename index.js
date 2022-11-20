@@ -6,10 +6,10 @@ const bodyParser = require("body-parser");
 const { group } = require("console");
 const mongoClient = require("mongodb").MongoClient
 const app = express()
-const port = 9000;
+const port = process.env.port | 9000;
 
 //const mongourl = "mongodb://localhost:27017"
-const mongourl = "mongodb+srv://mongoquiz:mongodb_quizapp_deerabani@deerabani-cluster.zxudpkj.mongodb.net/?retryWrites=true&w=majority"
+const mongourl = process.MONGOURI
 const dbName = "quizAppDB"
 const usersCol = "usersCol";
 const testsCol = "testsCol";
