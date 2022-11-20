@@ -141,6 +141,23 @@ var start_app = () =>{
 
     })
 
+    app.get('/updateDBU', (req, res)=>{
+        var response = res
+        loadDataAsyncPromise(usersFileURL)
+            .then((res=>{users = JSON.parse(res.toString())}))
+            .then(()=>{
+                mongoClient.connect(mongourl)
+                    .then((db)=>{
+                        var database = db.db(dbName);
+                        database.collection(usersCol).drop()
+                            .then(()=>{
+                                database.collection(usersCol).insertMany(users.users).then(()=>{response.end()})
+                            })
+                    })
+            })
+
+    })
+
     app.get('/updateDBG', (req, res)=>{
         var response = res
         loadDataAsyncPromise(groupsFileURL)
