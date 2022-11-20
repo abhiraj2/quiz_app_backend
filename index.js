@@ -9,7 +9,7 @@ const app = express()
 const port = 3000;
 
 //const mongourl = "mongodb://localhost:27017"
-const mongourl = process.env.MONGOURI
+const mongourl = "mongodb+srv://mongoquiz:mongodb_quizapp_deerabani@deerabani-cluster.zxudpkj.mongodb.net/?retryWrites=true&w=majority"
 const dbName = "quizAppDB"
 const usersCol = "usersCol";
 const testsCol = "testsCol";
